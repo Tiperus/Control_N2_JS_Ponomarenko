@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main">
+        <div class="main_panel" id="main_panel_style">
+            <section class="main_panel_sec_btn_code" id="main_panel_sec_btn_code" >
+                <button class="main_panel_sec_btn_code--button" id="main_panel_sec_btn_code--button" type="button"></button>
+            </section>
+            <section class="main_panel_sec_btn_fontstyle" id="main_panel_sec_btn_fontstyle">
+                <button class="main_panel_sec_btn_fontstyle-bold" id="main_panel_sec_btn_fontstyle-bold" type="button"></button>
+                <button class="main_panel_sec_btn_fontstyle-italic" id="main_panel_sec_btn_fontstyle-italic" type="button"></button>
+                <button class="main_panel_sec_btn_fontstyle-underline" id="main_panel_sec_btn_fontstyle-underline" type="button"></button>
+                <button class="main_panel_sec_btn_fontstyle-linethrough" id="main_panel_sec_btn_fontstyle-linethrough" type="button"></button>
+            </section>
+            <section class="main_panel_sec_btn_textalign" id="main_panel_sec_btn_textalign">
+                <button class="main_panel_sec_btn_textalign-left" id="main_panel_sec_btn_textalign-left" type="button"></button>
+                <button class="main_panel_sec_btn_textalign-right" id="main_panel_sec_btn_textalign-right" type="button"></button>
+                <button class="main_panel_sec_btn_textalign-center" id="main_panel_sec_btn_textalign-center" type="button"></button>
+            </section>
+            <section class="main_panel_sec_btn_textstyle" id="main_panel_sec_btn_textstyle">
+                <select class="main_panel_sec_btn_textstyle-fontfamily" id="main_panel_sec_btn_textstyle-fontfamily">
+                    <option selected disabled value="default"></option>
+                    <option value="Arial" id="arial">Arial</option>
+                    <option value="Georgia" id="georgia">Georgia</option>
+                    <option value="Impact" id="impact">Impact</option>
+                    <option value="Tahoma" id="tahoma">Tahoma</option>
+                    <option value="Times New Roman" id="times">Times New Roman</option>
+                    <option value="Verdana" id="verdana">Verdana</option>
+                </select>               
+                <select class="main_panel_sec_btn_textstyle-fontsize" id="main_panel_sec_btn_textstyle-fontsize" >
+                    <option selected disabled value="default"></option>
+                    <option value="12px" id="twelve">12px</option>
+                    <option value="14px" id="fourteen">14px</option>
+                    <option value="16px" id="sixteen">16px</option>
+                    <option value="18px" id="eighteen">18px</option>
+                    <option value="20px" id="twenty">20px</option>
+                    <option value="22px" id="twentytwo">22px</option>
+                    <option value="25px" id="twentyfive">25px</option>
+                    <option value="30px" id="thirty">30px</option>
+                </select>               
+                <button class="main_panel_sec_btn_textstyle-textcolor" id="main_panel_sec_btn_textstyle-textcolor" type="button"></button>
+                <div class="disabled" id="color_text">
+                    <div class="main_panel_sec_btn_textstyle_choisebox-header">
+                    <h4 class="head_color_box">Choose text color</h4>
+                    <div class="close"></div>
+                    </div><br>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                    <div class="color_box"></div>
+                </div>            
+                <button class="main_panel_sec_btn_textstyle-backgroundcolor" id="main_panel_sec_btn_textstyle-backgroundcolor" type="button"></button> 
+                <div id="tabs" class="disabled">
+                    <h4 class="head_color_box">Choose background color or image</h4>
+                    <ul>
+                      <li><a href="#fragment-1">Color</a></li>
+                      <li><a href="#fragment-2">Images</a></li>
+                      <li><a href="#fragment-3">Files</a></li>
+                    </ul>
+                    <div id="#fragment-1">
+                      <p>Proin .</p>
+                    </div>
+                    <div id="#fragment-2">
+                      <p>Morbi t</p>
+                    </div>
+                    <div id="#fragment-3">
+                      <p>Mauris erit.</p>
+                    </div>
+                  </div>              
+            </section> 
+            <section class="main_panel_sec_btn_password" id="main_panel_sec_btn_password">
+                <button class="main_panel_sec_btn_password-btnpasword" id="main_panel_sec_btn_password-btnpasword" type="button"></button>
+            </section>
+
+        </div>
+        <div class="aria" id="aria">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
