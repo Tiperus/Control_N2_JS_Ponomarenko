@@ -80,6 +80,14 @@ $(function(){
     $('.close').click(function (e) { 
         $('#color_text').attr('class','disabled');
     });
+    // __________________________________________Table
+    	
+    $( "#tabs" ).tabs( "disable" );
+    $('#main_panel_sec_btn_textstyle-backgroundcolor').click(function (e) { 
+        $( "#tabs" ).tabs( "enable" );
+        
+    });
+
 
 // ________________________________________________вікно backgroud
 $('#main_panel_sec_btn_textstyle-backgroundcolor').click(function (e) { 
