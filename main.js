@@ -79,21 +79,20 @@ $(function(){
     //________________________________________ Згортання вікна боксу кольорів текту
     $('.close').click(function (e) { 
         $('#color_text').attr('class','disabled');
+        $("#tabs").attr('class','disabled');
     });
-    // __________________________________________Table
-    	
-    $( "#tabs" ).tabs( "disable" );
-    $('#main_panel_sec_btn_textstyle-backgroundcolor').click(function (e) { 
-        $( "#tabs" ).tabs( "enable" );
-        
-    });
-
 
 // ________________________________________________вікно backgroud
 $('#main_panel_sec_btn_textstyle-backgroundcolor').click(function (e) { 
     $( "#tabs" ).tabs();
-    $( "#tabs" ).attr('class', 'main_panel_sec_btn_textstyle-backgroundcolor_choisebox');
+    $( "#tabs" ).attr('class', 'main_panel_sec_windows_textstyle-backgroundcolor');
 });
+    // _______________________________________________________колір бекгроунд
+    $('.color_box_backgound').click(function (e) { 
+        changeStyle('backgroundColor',$(this).css('background-color'));
+        $("#tabs").attr('class','disabled');
+        
+    });
 
 // _______________________________________________________Стилізація селекту
     let optionsArial=$('#arial').val()

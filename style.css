@@ -132,7 +132,7 @@ select{
 .main_panel_sec_btn_textstyle_choisebox-header{
     width: 99%;
     height: 30px;
-    margin: 0 0px 20px 0;
+    margin: 0 0 20px 0;
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
@@ -227,12 +227,130 @@ select{
 .color_box:nth-of-type(22){
     background-color: rgb(7, 7, 7);
 }
-.main_panel_sec_btn_textstyle-backgroundcolor_choisebox{
+
+/* .main_panel_sec_btn_textstyle-backgroundcolor_choisebox{
     position: absolute;
     top: 15vh;
     left: 50vw;
+} */
+.main_panel_sec_windows_textstyle-backgroundcolor{
+    width: 342px;
+    height: 230px;
+    position: absolute;
+    top:15vh;
+    left: 50vw;
+    /* background-color: rgba(255, 99, 71, 0.383); */
+    padding: 10px;
+
+    border: 2px solid rgb(182, 182, 245);
 }
 
+.main_panel_sec_windows_textstyle-backgroundcolor-ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    margin-top: 10px;
+    background-color: transparent;
+    border: none;
+}
+.main_panel_sec_btn_background_choisebox-header{
+    width: 99%;
+    height: 30px;
+    margin: 0 0px -26px 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(182, 182, 245);
+    color: white;
+}
+
+#tabs-1{
+    padding: 10px;
+    height: 160px;
+    width: 325px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: transparent;
+    border: none;
+
+}
+.color_box_backgound{
+    width: 40px;
+    height: 40px;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 50%;
+}
+[href^="#tabs"]{
+    padding: 2px 5px 2px 5px;
+}
+.color_box_backgound:nth-of-type(1){
+    background-color: rgb(7, 7, 7);
+}
+.color_box_backgound:nth-of-type(2){
+    background-color: rgb(248, 12, 12);
+}
+.color_box_backgound:nth-of-type(3){
+    background-color: rgb(245, 153, 153);
+}
+.color_box_backgound:nth-of-type(4){
+    background-color: rgb(255, 115, 0);
+}
+.color_box_backgound:nth-of-type(5){
+    background-color: rgb(255, 217, 0);
+}
+.color_box_backgound:nth-of-type(6){
+    background-color: rgb(255, 255, 0);
+}
+.color_box_backgound:nth-of-type(7){
+    background-color: rgb(184, 240, 138);
+}
+.color_box_backgound:nth-of-type(8){
+    background-color: rgb(21, 255, 0);
+}
+.color_box_backgound:nth-of-type(9){
+    background-color: rgb(43, 194, 43);
+}
+.color_box_backgound:nth-of-type(10){
+    background-color: rgb(4, 112, 4);
+}
+.color_box_backgound:nth-of-type(11){
+    background-color: rgb(106, 168, 139);
+}
+.color_box_backgound:nth-of-type(12){
+    background-color: rgb(51, 145, 140);
+}
+.color_box_backgound:nth-of-type(13){
+    background-color:rgb(0, 255, 234);
+}
+.color_box_backgound:nth-of-type(14){
+    background-color: rgb(99, 150, 247);
+}
+.color_box_backgound:nth-of-type(15){
+    background-color: rgb(41, 82, 172);
+}
+.color_box_backgound:nth-of-type(16){
+    background-color: rgb(38, 6, 180);
+}
+.color_box_backgound:nth-of-type(17){
+    background-color: rgb(37, 17, 126);
+}
+.color_box_backgound:nth-of-type(18){
+    background-color: rgb(107, 54, 121);
+}
+.color_box_backgound:nth-of-type(19){
+    background-color: rgb(255, 0, 255);
+}
+.color_box_backgound:nth-of-type(20){
+    background-color: rgb(252, 252, 252);
+}
+.color_box_backgound:nth-of-type(21){
+    background-color: rgb(105, 110, 108);
+}
+.color_box_backgound:nth-of-type(22){
+    background-color: rgb(7, 7, 7);
+}
 
 
 
