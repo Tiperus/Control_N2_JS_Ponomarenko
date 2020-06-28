@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
-    <!-- <link rel="stylesheet" href="/resources/demos/style.css"> -->
     <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
@@ -86,8 +85,8 @@
                     <ul class="main_panel_sec_windows_textstyle-backgroundcolor-ul">
 
                       <li><a href="#tabs-1"> Colors </a></li>
-                      <li><a href="#tabs-2">Proin dolor</a></li>
-                      <li><a href="#tabs-3">Aenean lacinia</a></li>
+                      <li><a href="#tabs-2">Images</a></li>
+                      <li><a href="#tabs-3">Files</a></li>
                     </ul >
                     <div id="tabs-1">
                         <div class="color_box_backgound"></div>
@@ -113,15 +112,37 @@
                         <div class="color_box_backgound"></div>
                     </div>
                     <div id="tabs-2">
-                      <p>Morbi tincidunt, dui s</p>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
+                        <div class="color_box_backgound_image"></div>
                     </div>
                     <div id="tabs-3">
-                      <p>Mauris eleifend est et</p>
+                        <input  type="file" name="image_file" id="image_file">
                     </div>
                   </div>          
             </section> 
             <section class="main_panel_sec_btn_password" id="main_panel_sec_btn_password">
                 <button class="main_panel_sec_btn_password-btnpasword" id="main_panel_sec_btn_password-btnpasword" type="button"></button>
+                <form class="disabled" id="form-signin">
+                    <div class="main_panel_sec_btn_textstyle_choisebox-header">
+                        <h4 class="head_color_box">Sign in</h4>
+                        <div class="close"></div>
+                    </div><br>
+                    <input type="text" id="inputText" class="form-control" placeholder="Login" required="" autofocus="">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                    <div class="disabled" id="check_your_login_or_password">Please check your login or password</div>
+                    <button class="main_panel_sec_btn_password-btnpasword--sing_in" type="button">Sign in</button>
+                    
+                  </form>
             </section>
 
         </div>
@@ -135,6 +156,16 @@
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
     </div>
-    <script src="main.js"></script>
+    <div class="disabled" id="main_create_table_list">
+        <div class="main_panel" id="main_create_table_list_panel">
+            <button class="main_create_table_list_panel_btn_save" id="main_create_table_list_panel_btn_save" type="button"></button>  
+            <button class="main_create_table_list_panel_btn_table" id="main_create_table_list_panel_btn_table" type="button"></button>  
+            <button class="main_create_table_list_panel_btn_ol" id="main_create_table_list_panel_btn_ol" type="button"></button>  
+            <button class="main_create_table_list_panel_btn_ul" id="main_create_table_list_panel_btn_ul" type="button"></button>  
+        </div>
+        <textarea type="textaria" name="textaria" id="textaria"></textarea>
+    </div>
+
+<script src="main.js"></script>
 </body>
 </html>
