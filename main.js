@@ -143,8 +143,6 @@ $(function(){
             $("#Ol_create").attr('class', 'disabled');
             checkOpenCreationWindows=true;
             }
-
-            
         });
         // ________________________________________________кнопка ресет поля вікна списку
         $('#button_list_reset').click(function (e) { 
