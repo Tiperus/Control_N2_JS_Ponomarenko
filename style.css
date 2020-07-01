@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 .main{
     display: flex;
     flex-direction: column;
@@ -232,18 +231,12 @@ select{
     background-color: rgb(7, 7, 7);
 }
 
-/* .main_panel_sec_btn_textstyle-backgroundcolor_choisebox{
-    position: absolute;
-    top: 15vh;
-    left: 50vw;
-} */
 .main_panel_sec_windows_textstyle-backgroundcolor{
     width: 342px;
     height: 230px;
     position: absolute;
     top:15vh;
     left: 50vw;
-    /* background-color: rgba(255, 99, 71, 0.383); */
     padding: 10px;
 
     border: 2px solid rgb(182, 182, 245);
@@ -560,11 +553,4 @@ select{
 }
 .disabled{
     display: none;
-    /* position: relative; */
 }
-/* .short{
-    height: 100px;
-}
-.short_inside{
-    height: 60px;
-} */
