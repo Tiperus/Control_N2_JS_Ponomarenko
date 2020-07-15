@@ -8,6 +8,7 @@ $(function(){
     let checkUlCreation=true;
     let checkOlCreation=true;
     let checkOpenCreationWindows=true;
+    let passwordCheck=false;
 
     let styleBorder = ['solid', 'dashed', 'dotted', 'double'];
     let colorBorder =['lime', 'yellow', 'yellowgreen', 'green', 'orange', 'orangered', 'blue', 'blueviolet', 'navy'];
@@ -15,11 +16,13 @@ $(function(){
     let typeListMarks=['disc', 'circle', 'square'];
     
     // ____________________________________Кнопка тегів (доступ до текст арія і таблиць з списками)
-        $('#main_panel_sec_btn_code--button').click(function (e) { 
+        $('#main_panel_sec_btn_code--button').click(function (e) {
+            if(passwordCheck){ 
     $('#main').attr('class', 'disabled');
     $('#aria').attr('class', 'disabled');
     $('#main_create_table_list').attr('class', 'main');
     $('#textaria').val($('#aria').html());    
+    }
     });
     // ______________________________________________________кнопка save textaria
     $('#main_create_table_list_panel_btn_save').click(function (e) { 
@@ -355,6 +358,7 @@ $('#main_panel_sec_btn_textstyle-backgroundcolor').click(function (e) {
             $('#inputPassword').attr('class', 'form-control');
             $('#check_your_login_or_password').attr('class', 'disabled');
             checkModalWindows=true;
+            passwordCheck=true;
 
         }
     });
